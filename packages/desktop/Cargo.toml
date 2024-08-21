@@ -10,7 +10,7 @@ homepage = "https://dioxuslabs.com/docs/0.3/guide/en/getting_started/desktop.htm
 keywords = ["dom", "ui", "gui", "react"]
 
 [dependencies]
-dioxus-core = { workspace = true, features = ["serialize"] }
+dioxus-core = { workspace = true, features = ["serialize", "native-bind"] }
 dioxus-html = { workspace = true, features = ["serialize", "native-bind"] }
 dioxus-interpreter-js = { workspace = true }
 dioxus-hot-reload = { workspace = true, optional = true }
